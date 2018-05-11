@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MB-AGO</string>
+    <string name="result">Find Result</string>
+    <string name="ref">Capture Reference Image</string>
+    <string name="stu">Capture Student Sheet</string>
+    <string name="hello_world">Welcome to The App</string>
+    <string name="credit">Ritik Yadav \t Harshvardhan</string>
+    <string name="result1">View Result</string>
+    <string name="disc">Ritik Yadav \t Harshvardhan</string>
+</resources>

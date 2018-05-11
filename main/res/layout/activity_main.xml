@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#003400"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+
+    tools:context="com.example.mb_ago.MainActivity"
+tools:ignore="RtlHardcoded" >
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_alignLeft="@+id/button2"
+    android:layout_below="@+id/button2"
+    android:layout_marginTop="41dp"
+    android:background="@drawable/butn"
+    android:shadowColor="#454545"
+    android:text="@string/result"
+    android:textColor="#ffffff"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_below="@+id/textView1"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/butn"
+    android:text="@string/ref"
+    android:textColor="#ffffff"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_alignLeft="@+id/button1"
+    android:layout_below="@+id/button1"
+    android:layout_marginTop="42dp"
+    android:background="@drawable/butn"
+    android:text="@string/stu"
+    android:textColor="#ffffff"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:text="@string/hello_world"
+    android:textColor="#ffffff" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="@string/credit"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="#ABABAB"
+    android:textSize="12sp" />
+
+</RelativeLayout>
